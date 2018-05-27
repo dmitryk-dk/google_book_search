@@ -1,0 +1,5 @@
+export const GET_BOOKS_REQUEST = 'GET_BOOKS_REQUEST';
+export const GET_BOOKS_SUCCESS = 'GET_BOOKS_SUCCESS';
+export const GET_BOOKS_FAIL = 'GET_BOOKS_FAIL';
+export const CHOOSE_BOOK = 'CHOOSE_BOOK';
+export const CLEAR_FILTER = 'CLEAR_FILTER';
