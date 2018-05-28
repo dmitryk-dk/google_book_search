@@ -20,18 +20,14 @@ export function getBooks(url) {
 }
 
 export function chooseBook(bookId) {
-  return (dispatch) => {
-    dispatch({
+  return {
       type: CHOOSE_BOOK,
       bookId,
-    });
-  }
+    };
 }
 
 export function clearFilter() {
-  return (dispatch) => {
-    dispatch({
+  return {
       type: CLEAR_FILTER,
-    });
-  };
+    }
 }
